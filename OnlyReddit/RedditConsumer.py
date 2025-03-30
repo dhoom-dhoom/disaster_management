@@ -25,10 +25,10 @@ KAFKA_TOPIC = "reddit_disasters"
 KAFKA_BOOTSTRAP_SERVERS = "localhost:9092"
 
 # Load the trained model and tokenizer
-
-model_path = r"C:\Users\SANID\Downloads\Model"
-model_path2 = r"C:\Users\SANID\Downloads\Model2"
-model_path3 = r"C:\Users\SANID\Downloads\Model3"
+# Add path according to your System
+model_path = r"C:\Users\SANID\Downloads\Info_Model"
+model_path2 = r"C:\Users\SANID\Downloads\_Classes_Model"
+model_path3 = r"C:\Users\SANID\Downloads\Severity_Model"
 
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"Model path not found: {model_path}")
