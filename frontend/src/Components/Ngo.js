@@ -5,7 +5,7 @@ import { FaLayerGroup, FaRoute, FaInfoCircle, FaHandHoldingHeart } from 'react-i
 import { motion, AnimatePresence } from 'framer-motion';
 import './Ngo.css';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'http://localhost:8002';
 const GOOGLE_MAPS_API_KEY = 'AIzaSyCcQrmxY2lwqHAnzLr6PaE72U1zsfN2sbg';
 
 const containerStyle = {
