@@ -33,7 +33,7 @@ consumer = KafkaConsumer(
 )
 
 print(f"Listening to Kafka topic: {KAFKA_TOPIC}")
-
+# Add Model Paths here Accordingly for your system and directory
 # Load the trained models and tokenizers
 base_path = r"C:/Users/SANID/Downloads"  # Use forward slashes for compatibility
 
