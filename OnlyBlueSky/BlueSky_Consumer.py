@@ -67,9 +67,9 @@ label_mapping = {
     7: "missing_or_found_people"
 }
 
-guardian_api_key = "0c4083be-3e58-4584-bf80-ec50e059b4fd"
-newsapi_key = "fea77375b0c14093878dd1ceabe002d7"
-groq_api_key = "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"
+guardian_api_key = "Your API Key"
+newsapi_key = "Your API Key"
+groq_api_key = "Your API Key"
 
 today = datetime.today().date()
 from_date = today - timedelta(days=5)
